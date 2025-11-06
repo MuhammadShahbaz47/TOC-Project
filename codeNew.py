@@ -213,6 +213,14 @@ def interactive_mode():
     print("Type 'exit' to quit.")
     print("--------------------------------------------\n")
 
+    # ✅ Show correct examples before user input
+    print("💡 Try these examples:")
+    print(" • turn on the living room lights")
+    print(" • switch off the kitchen fan")
+    print(" • remind me to take medicine after 2 hours")
+    print(" • set alarm for meeting with team at 6 pm")
+    print(" • schedule a read the book tomorrow at 9 am\n")
+
     while True:
         cmd = input("Enter command: ").strip()
         if cmd.lower() == 'exit':
